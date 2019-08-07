@@ -1,0 +1,36 @@
+Passos a seguir
+
+1 - Download da Pasta do Projeto
+
+-> acessar pasta
+
+->As vezes dá erro de permissão - Rodar o comando
+"sudo chowner -R andrew:andrew NOMEDAPASTA"
+TROCAR O MEU NOME PELO SEU USUÁRIO
+
+-> Para rodar o programa acessar a pasta e rodar o comando
+"php artisan serve"
+
+ONDE FICAM AS COISAS:
+Controller -> app/http/controllers
+View -> resources/views
+Model -> app/ as models estão soltas dentro da pasta app
+Migrations -> database/migrations
+
+2 - Banco de dados
+Criar base de dados no phpmyadmin
+'prova-frameworks'
+
+3 - configurar conexão com o BD
+no arquivo .env fazer essas alterações
+DB_DATABASE=prova-frameworks
+DB_USERNAME=root
+DB_PASSWORD=root
+
+4 - RODAR O COMANDO
+"php artisan migrate"
+
+5 - alterar nomes (fiz de imóveis)
+
+
+
