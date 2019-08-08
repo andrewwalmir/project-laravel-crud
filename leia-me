@@ -30,7 +30,5 @@ DB_PASSWORD=root
 4 - RODAR O COMANDO
 "php artisan migrate"
 
-5 - alterar nomes (fiz de imóveis)
-
 
 
